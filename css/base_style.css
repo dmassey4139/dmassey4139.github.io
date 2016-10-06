@@ -15,7 +15,8 @@ p.content:last-of-type
 
 #left-border
 {
-    position: relative;
+    position: fixed;
+    left: 0;
     z-index: 1;
     float: left;
     width: 10%;
@@ -24,7 +25,8 @@ p.content:last-of-type
 
 #right-border
 {
-    position: relative;
+    position: fixed;
+    right: 0;
     z-index: 1;
     float: right;
     width: 10%;

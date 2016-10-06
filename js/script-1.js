@@ -110,8 +110,8 @@ $(function () {
 
     $icons.css('margin-left', spacing);
 
-    $leftBorder.height($middle.height());
-    $rightBorder.height($middle.height());    
+    $leftBorder.height($(window).height());
+    $rightBorder.height($(window).height());  
 
     // code for the slider
     /*var $slider = $('.my-slider').unslider({
