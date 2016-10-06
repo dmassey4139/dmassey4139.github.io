@@ -1,0 +1,590 @@
+﻿body
+{
+    margin: 0;
+}
+
+p:first-of-type
+{
+    margin-top: 0;
+}
+
+p.content:last-of-type
+{
+    margin-bottom: 0;
+}
+
+#left-border
+{
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 10%;
+    background-color: #232020;
+}
+
+#right-border
+{
+    position: relative;
+    z-index: 1;
+    float: right;
+    width: 10%;
+    background-color: #232020;
+}
+
+body#jean #middle
+{
+    /*position: absolute;*/
+    background-color: #ed444a;
+}
+
+body#dakota #middle {
+    background-color: #60ff83;
+}
+
+#middle
+{
+    /*position: absolute;*/
+    background-color: #7f8ff9;
+}
+
+#middle p.content
+{
+    /*outline: 1px black solid;*/
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 1em;
+    text-align: justify;
+    line-height: 150%;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#dylan_league {
+    border: 5px solid #990000;
+    /*position: absolute;*/
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#home-banner-pic
+{    
+    image-orientation: from-image;
+    border: 5px solid #990000;
+    /*position: absolute;*/
+    float: left;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+#banner-video
+{
+    border: 5px solid #990000;
+    /*position: absolute;*/
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#manchester-banner
+{
+    height: 400px;
+    /*position: absolute;*/
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#jean-banner-video
+{
+    border: 5px solid #990000;
+    /*position: absolute;*/
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-left: 4em;
+}
+
+#sharp-banner-video
+{
+    height: 300px;
+    /*position: absolute;*/
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-left: 4em;
+}
+
+#left-video-buffer {
+    padding-top: 5em;
+    display: block;
+    float: left;
+    width: 3em;
+}
+
+#right-video-buffer {
+    margin-top: 1em;
+    display: block;
+    float: left;
+    width: 3em;
+}
+
+#home-video-buffer {
+    margin-top: 1em;
+    display: block;
+    float: left;
+    width: 3em;
+    height: 300px;
+}
+
+#right-manchester-buffer {
+    margin-top: 1em;
+    display: block;
+    float: left;
+    width: 3em;
+    height: 400px;
+}
+
+#jean-right-video-buffer {
+    margin-top: 1em;
+    display: block;
+    float: left;
+    width: 3em;
+}
+
+#framework-right-video-buffer {
+    height: 300px;
+    margin-top: 1em;
+    display: block;
+    float: left;
+    width: 3em;
+}
+
+#right-slider-buffer {
+    margin-top: 1em;
+    display: block;
+    float: left;
+    width: 1em;
+    
+}
+
+#right-youtube-buffer {
+    margin-top: 1em;
+    display: block;
+    float: left;
+    width: 1em;   
+}
+
+#nav
+{
+    position: absolute;
+    left: 2px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav li {
+    background-color: #f45642;
+    margin-bottom: 1em;
+    /*outline: 1px solid black;*/
+    border-radius: 100px;
+}
+
+#nav li a
+{
+    text-decoration: none;
+}
+
+#nav li a p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#nav li ul li a p {
+    color: black;
+}
+
+.selected a p.outer{
+    background-color: #f45642;
+    margin-bottom: 1em;
+    /*outline: 1px solid black;*/
+
+}
+
+.inner {
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+#header-1 {
+    width: 8em;
+    margin: 0 auto;
+    font-size: 5em;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#header-1-home {
+    width: 11em;
+    margin: 0 auto;
+    padding-top: 1em;
+    font-size: 4em;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#header-1-hobbies{
+    width: 9em;
+    margin: 0 auto;
+    font-size: 5em;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#header-1-jean-hobbies{
+    width: 7.8em;
+    margin: 0 auto;
+    font-size: 5em;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#header-1-dakota-hobbies{
+    width: 10em;
+    margin: 0 auto;
+    font-size: 5em;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#header-1-framework{
+    width: 12em;
+    margin: 0 auto;
+    font-size: 5em;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#dylan_hobbies_pic_1 {
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 400px;
+    float: right;
+}
+
+#framework_pic_1 {
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: -3em;
+    width: 400px;
+    float: right;
+}
+
+#dakota_hobbies_pic_1 {
+    image-orientation: from-image;
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    float: right;
+    width: 400px;
+}
+
+#dylan_pic_1 {
+    image-orientation: from-image;
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 300px;
+    float: right;
+}
+
+#manchester_pic_1 {
+    margin-top: -1em;
+    margin-bottom: -1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    width: 400px;
+    float: right;
+}
+
+#dylan_gaming_pic_1 {
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 300px;
+    float: right;
+}
+
+#dylan_pic_2 {
+    image-orientation: from-image;
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 400px;
+    float: left;
+}
+
+#jean_pic_2 {
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: -2em;
+    margin-right: 1em;
+    width: 400px;
+    float: left;
+}
+
+#dylan_gaming_pic_2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -100px;
+    margin-right: -100px;
+    height: 300px;
+    float: left;
+}
+
+#dylan_pic_3 {
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 300px;
+    float: right;
+}
+
+#xamarin_pic_3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 300px;
+    float: right;
+}
+
+#jean_pic_3 {
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: -3em;
+    width: 300px;
+    float: right;
+}
+
+#dylan_gaming_pic_3 {
+    margin-top: -1em;
+    margin-bottom: -2em;
+    margin-left: 1em;
+    margin-right: 0;
+    width: 350px;
+    float: right;
+}
+
+#xamarin_pic_4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 300px;
+    float: left;
+}
+
+#dylan_pic_4 {
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 300px;
+    float: left;
+}
+
+#jean_pic_4 {
+    border: 5px solid #990000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 400px;
+    float: left;
+}
+
+#dakota_bio_pic_4 {
+    border: 5px solid #990000;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 300px;
+    float: left;
+}
+
+#dylan_gaming_pic_4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 300px;
+    float: left;
+}
+
+
+#up-button {
+    position: fixed;
+    top: 130px;
+}
+
+#up-button.open {
+    left: 265px;
+}
+
+#up-button.not-open {
+    left: 10px;
+}
+
+#menu-button {
+    position: fixed;
+    top: 10px;
+}
+
+#menu-button.open {
+    left: 265px;
+}
+
+#menu-button.not-open {
+    left: 10px;
+}
+
+.first-level {
+    padding-left: 1em;
+}
+
+.second-level {
+    padding-left: 3em;
+}
+
+.social-media-button {
+    position: fixed;
+    right: 30px;
+}
+
+#facebook-jean {
+    top: 190px;
+}
+
+#instagram-jean {
+    top: 280px;
+}
+
+#facebook-dylan {
+    top: 10px;
+}
+
+#twitter-dylan {
+    top: 100px;
+}
+
+#twitch-dylan {
+    top: 190px;
+}
+
+#youtube-dylan {
+    top: 280px;
+}
+
+#instagram-dylan {
+    top: 370px;
+}
+
+#google-dakota {
+    top: 190px;
+}
+
+#github-dakota {
+    top: 280px;
+}
+
+#footer {
+    position: relative;
+    z-index: 9999;
+    background-color: #a7b5cc;
+}
+
+#slider {
+    float: left;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border: 5px ridge silver;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 500px;
+    height: 500px;
+}
+
+#footer img {
+    margin-top: 2em;
+}
+
+#footer #links {
+    width: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-family: 'Bangers', cursive;
+    margin: 0 auto;
+}
+
+#footer div {
+    float: left;
+    height: 150px;
+    width: 200px;  
+}
+
+#footer img {
+    height: 150px;
+    width: 200px;
+}
+
+#phone {
+    float: right;
+}
+
+#footer div p {
+    margin: 0;
+    margin-top: 0.5em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#middle img:last-of-type {
+    margin-bottom: 0;
+}
